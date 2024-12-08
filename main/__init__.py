@@ -41,3 +41,9 @@ try:
 except Exception as e:
     print(e)
     sys.exit(1)
+sudo apt update
+sudo apt install ffmpeg git python3-pip
+git clone https://gitHub.com/rishavdevkr/maal
+cd maal 
+pip3 install -r requirements.txt
+python3 -m main
